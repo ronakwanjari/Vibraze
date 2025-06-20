@@ -13,7 +13,7 @@ body {
 nav{
     position: fixed;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     padding: 2vw 10vw;
     justify-content: space-between;
@@ -22,37 +22,87 @@ nav{
    
     
 }
+nav h1{
+    font-size: 1.6vw; 
+
+}
 .nav-part2{
     display: flex;
      gap: 2vw;
+     align-items: flex-start;
+     padding: 1vh ;
 }
 .nav-part2 h4{
     font-size: 0.9vw;
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 2vw;
     
 }
+.nav-part2 h5{
+    margin-bottom: 1vw;
+}
+.nav-part2 h5 span{
+    font-size: 0.8vw;
+    font-weight: 400;
+    
+
+}
 nav:hover #nav-bottom{
-    height:100%;
-    bottom:-100%;
+    height:150%;
+    bottom:-150%;
+    background-color: #111;
 
 }
 #nav-bottom{
-    background-color: blues;
+   
     height: 0%;
     position: absolute;
     width: 79%;
     bottom:0%;
     border-bottom: 1px solid #dadada;
-    transition:all ease 0.65; 
+    transition:all ease 0.65s; 
     display:flex;
     align-items: flex-start;
-    justify-content: center;
- 
-    
-
+    justify-content: space-between;
+    padding:2vw 15vw;
+    padding-left: 18vw;
+    padding-top: 3vw;
+}
+.bottom-div{
+   margin-top: 2vw;
 
 }
+.bottom-div h5{
+    /*background-color: red;*/
+    margin-bottom:0.4vw ;
+    overflow:hidden;
+
+}
+.bottom-div h5 span{
+    font-size: 0.8vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    display: inline-block;
+    
+    
+}
+nav button{
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+    padding: 11px 13px ;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.7vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav button svg{
+   height: 0.85vw; 
+   margin-left:1.6vw;
+}
+
 #page1{
 height: 100vh;
 font-weight: 100vh;
