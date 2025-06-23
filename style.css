@@ -30,10 +30,10 @@ nav h1{
     display: flex;
      gap: 2vw;
      align-items: flex-start;
-     padding: 1vh ;
+     padding: 1vh 0;
      z-index: 10;
      position: relative;
-     z-index: 10;
+    
 
 }
 .nav-part2 h4{
@@ -45,47 +45,18 @@ nav h1{
 }
 .nav-part2 h5{
     margin-bottom: 1vw;
-    overflow: hidden;
+   background-color: red;
     display: none;
+    opacity: 0;
+    
+   
     
 }
 .nav-part2 h5 span{
     font-size: 0.8vw;
     font-weight: 400;
     display: inline-block;
-    
-    
-
-}
-nav:hover #nav-bottom{
-    height:150%;
-    bottom:-150%;
-    background-color: #111;
-
-}
-#nav-bottom{
-   
-    height: 0vh ;
-    position: absolute;
-    width: 79%;
-    bottom:0%;
-    border-bottom: 1px solid #dadada;
-    transition:all ease 0.65s; 
-    display:flex;
-    align-items: flex-start;
-    justify-content: space-between;
-   top: 100;
-    z-index: 9;
-    background-color:#111 ;
-}
-
-.bottom-div h5 span{
-    font-size: 0.8vw;
-    font-weight: 500;
-    margin-top: 3vw;
-    display: inline-block;
-
-    
+        
 }
 nav button{
     background-color: darkorchid;
@@ -103,6 +74,17 @@ nav button svg{
    margin-left:1.6vw;
 }
 
+
+#nav-bottom{
+   
+    height: 0vh ;
+    position: absolute;
+    width: 79%;
+    border-bottom: 1px solid #fff;
+    top: 100%;
+    z-index: 9;
+    background-color:#111 ;
+}
 
 
 #page1{
