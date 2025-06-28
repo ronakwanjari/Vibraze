@@ -30,7 +30,9 @@ Welcome to **VIBRAZE.**, a sleek, animated frontend website showcasing a modern 
 ---
 
 🤖 Developer
+
 Made by Ronak Wanjari
+
 Intern @Devsycn · Frontend Enthusiast
 
 📌 Future Improvements
